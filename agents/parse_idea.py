@@ -1,27 +1,16 @@
 from agents.base_agent import BaseAgent
 from agents.prompts.parse_idea_prompt import PARSE_IDEA_PROMPT
-from utils.json_parser import safe_parse_json
-from utils.llm import call_llm
 from state.shared_state import GraphState
 
 
 class ParseIdeaAgent(BaseAgent):
-    """
-    Extract structured metadata from a startup idea.
-    """
+
+    def build_prompt(self, state: GraphState) -> str:
+        return PARSE_IDEA_PROMPT.format(idea=state["idea"])
 
     def run(self, state: GraphState) -> dict:
-        idea = state["idea"]
+        parsed = super().run(state)
 
-        prompt = PARSE_IDEA_PROMPT.format(idea=idea)
-
-        raw_response = call_llm(prompt)
-        # Optional debug
-        # print("[ParseIdeaAgent] Raw:", raw_response)
-
-        parsed = safe_parse_json(raw_response)
-
-        # Handle invalid JSON
         if not isinstance(parsed, dict) or "error" in parsed:
             parsed = self._default_output()
         else:
@@ -34,29 +23,26 @@ class ParseIdeaAgent(BaseAgent):
         }
 
     def _validate_and_clean(self, data: dict) -> dict:
-        required_fields = ["industry", "target_audience", "region"]
+        fields = ["industry", "target_audience", "region"]
 
-        for field in required_fields:
-            value = data.get(field)
-
-            if not isinstance(value, str) or not value.strip():
-                data[field] = self._get_default(field)
+        for f in fields:
+            val = data.get(f)
+            if not isinstance(val, str) or not val.strip():
+                data[f] = self._get_default(f)
             else:
-                data[field] = value.strip()
+                data[f] = val.strip()
 
-        # Ensure region fallback
         if not data.get("region"):
             data["region"] = "Global"
 
         return data
 
     def _get_default(self, field: str) -> str:
-        defaults = {
+        return {
             "industry": "Technology",
             "target_audience": "General consumers",
             "region": "Global"
-        }
-        return defaults.get(field, "Unknown")
+        }.get(field, "Unknown")
 
     def _default_output(self) -> dict:
         return {
@@ -67,5 +53,4 @@ class ParseIdeaAgent(BaseAgent):
 
 
 def parse_idea_node(state: GraphState) -> dict:
-    agent = ParseIdeaAgent()
-    return agent.run(state)
+    return ParseIdeaAgent().run(state)
