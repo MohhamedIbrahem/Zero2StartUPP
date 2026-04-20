@@ -1,6 +1,9 @@
 from agents.base_agent import BaseAgent
 from agents.prompts.parse_idea_prompt import PARSE_IDEA_PROMPT
 from state.shared_state import GraphState
+from langsmith import traceable
+
+
 
 
 class ParseIdeaAgent(BaseAgent):
@@ -51,6 +54,6 @@ class ParseIdeaAgent(BaseAgent):
             "region": "Global"
         }
 
-
+@traceable(name="parse_idea_agent")
 def parse_idea_node(state: GraphState) -> dict:
     return ParseIdeaAgent().run(state)

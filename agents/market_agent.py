@@ -2,6 +2,7 @@ import re
 from agents.base_agent import BaseAgent
 from agents.prompts.market_prompt import MARKET_PROMPT
 from state.shared_state import GraphState
+from tools.search_tools import tavily_search
 
 
 class MarketAgent(BaseAgent):
@@ -13,12 +14,20 @@ class MarketAgent(BaseAgent):
     """
 
     def build_prompt(self, state: GraphState) -> str:
+
+        industry = state.get("industry", "Technology")
+        region = state.get("region", "Global")
+
+        query = f"market size {industry} {region} statistics TAM SAM SOM"
+
+        search_results = tavily_search(query)
+
         return MARKET_PROMPT.format(
             idea=state["idea"],
-            industry=state.get("industry", "Technology"),
+            industry=industry,
             target_audience=state.get("target_audience", "General consumers"),
-            region=state.get("region", "Global"),
-            search_results="No search results available"
+            region=region,
+            search_results=search_results
         )
 
     def run(self, state: GraphState) -> dict:
