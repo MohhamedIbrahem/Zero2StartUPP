@@ -11,6 +11,8 @@ class Config:
     TAVILY_API_KEY: str = os.getenv("TAVILY_API_KEY")
     SERPER_API_KEY: str = os.getenv("SERPER_API_KEY")
     FIRECRAWL_API_KEY: str = os.getenv("FIRECRAWL_API_KEY")
+    os.environ["LANGCHAIN_TRACING_V2"] = "true"
+    os.environ["LANGCHAIN_PROJECT"] = "zero2startup"
 
     # 🤖 LLM SETTINGS
     MODEL_NAME: str = "llama-3.3-70b-versatile"

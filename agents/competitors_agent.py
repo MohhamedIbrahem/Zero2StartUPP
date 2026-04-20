@@ -1,7 +1,8 @@
 from agents.base_agent import BaseAgent
 from agents.prompts.competitors_prompt import COMPETITORS_PROMPT
 from state.shared_state import GraphState
-
+from tools.search_tools import serper_search,extract_urls
+from tools.scrape_tools import firecrawl_scrape
 
 REQUIRED_FIELDS = [
     "name",
@@ -22,15 +23,34 @@ class CompetitorsAgent(BaseAgent):
     """
 
     def build_prompt(self, state: GraphState) -> str:
+
+        industry = state.get("industry", "Technology")
+        region = state.get("region", "Global")
+
+        query = f"top competitors {industry} apps {region}"
+
+        search_results = serper_search(query)
+
+        # 🔥 Extract multiple URLs
+        urls = extract_urls(search_results)
+
+        # 🔥 Scrape top 3 URLs
+        scraped_chunks = []
+
+        for url in urls[:3]:
+            content = firecrawl_scrape(url)
+            scraped_chunks.append(f"URL: {url}\n{content}")
+
+        scrape_results = "\n\n".join(scraped_chunks)
+
         return COMPETITORS_PROMPT.format(
             idea=state["idea"],
-            industry=state.get("industry", "Technology"),
+            industry=industry,
             target_audience=state.get("target_audience", "General consumers"),
-            region=state.get("region", "Global"),
-            search_results="No search results available",
-            scrape_results="No scraped data available"
+            region=region,
+            search_results=search_results,
+            scrape_results=scrape_results
         )
-
     def run(self, state: GraphState) -> dict:
         parsed = super().run(state)
 

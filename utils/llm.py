@@ -1,5 +1,7 @@
 from groq import Groq
 from typing import Optional
+from langsmith import traceable
+
 import time
 
 from config import Config
@@ -11,6 +13,7 @@ class LLMClient:
         self.model = Config.MODEL_NAME
         self.temperature = Config.TEMPERATURE
 
+    @traceable(name="groq_llm_call")
     def generate(self, prompt: str, max_retries: int = 2) -> str:
         """
         Generate response from Groq LLM with retry logic.
