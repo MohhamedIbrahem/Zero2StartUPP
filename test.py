@@ -1,10 +1,23 @@
 
 
-class TestAgent(BaseAgent):
-    def build_prompt(self, state):
-        return 'Return JSON: {"test": "ok"}'
+from graph.orchestrator import build_graph
+
+graph = build_graph()
+
+from graph.orchestrator import build_graph
+
+graph = build_graph()
+
+result = graph.invoke({
+    "idea": "AI-powered fitness app for busy professionals"
+})
+
+print(result)
 
 
-agent = TestAgent()
 
-print(agent.run({"idea": "test"}))
+
+# def dummy_parse_node(state):
+#     return {
+#         "industry": "healthtech"
+#     }
