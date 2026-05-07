@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+sse-starlette
+pydantic
+langgraph
+langsmith
+groq
+tavily-python
+requests
+python-dotenv
+firecrawl-py

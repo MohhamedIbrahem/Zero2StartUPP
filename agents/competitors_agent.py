@@ -1,42 +1,42 @@
 from agents.base_agent import BaseAgent
 from agents.prompts.competitors_prompt import COMPETITORS_PROMPT
 from state.shared_state import GraphState
-from tools.search_tools import serper_search,extract_urls
+from tools.search_tools import serper_search
 from tools.scrape_tools import firecrawl_scrape
-
-REQUIRED_FIELDS = [
-    "name",
-    "url",
-    "pricing",
-    "value_proposition",
-    "strengths",
-    "weaknesses"
-]
-
+from tools.retrieval_filters import filter_and_rank_results
+from schemas.competitors import Competitors
 
 class CompetitorsAgent(BaseAgent):
-    """
-    Agent responsible for competitor analysis.
-
-    Input: idea, industry, target_audience, region
-    Output: {"competitors": {...}}
-    """
+    def __init__(self):
+        super().__init__()
+        self.schema_class = Competitors
 
     def build_prompt(self, state: GraphState) -> str:
+        parsed_idea = state.get("parsed_idea") or {}
+        industry = parsed_idea.get("industry", "Technology") if isinstance(parsed_idea, dict) else getattr(parsed_idea, "industry", "Technology")
+        region = parsed_idea.get("region", "Global") if isinstance(parsed_idea, dict) else getattr(parsed_idea, "region", "Global")
+        target_audience = parsed_idea.get("target_audience", "General consumers") if isinstance(parsed_idea, dict) else getattr(parsed_idea, "target_audience", "General consumers")
 
-        industry = state.get("industry", "Technology")
-        region = state.get("region", "Global")
+        query = f"top competitors or businesses similar to '{state['idea']}' in {region}"
+        raw_search_results = serper_search(query)
 
-        query = f"top competitors {industry} apps {region}"
+        # 🔥 Rank and Filter
+        filtered_results = filter_and_rank_results(
+            results=raw_search_results,
+            idea=state["idea"],
+            region=region,
+            industry=industry
+        )
 
-        search_results = serper_search(query)
+        # Extract highly relevant URLs
+        urls = [r["link"] for r in filtered_results]
 
-        # 🔥 Extract multiple URLs
-        urls = extract_urls(search_results)
+        # Format filtered snippets for the LLM
+        snippets = [f"{r['title']} - {r['snippet']} ({r['link']})" for r in filtered_results]
+        search_results_str = "\n".join(snippets) if snippets else "No highly relevant search results found."
 
-        # 🔥 Scrape top 3 URLs
+        # 🔥 Scrape top 3 filtered URLs
         scraped_chunks = []
-
         for url in urls[:3]:
             content = firecrawl_scrape(url)
             scraped_chunks.append(f"URL: {url}\n{content}")
@@ -46,112 +46,15 @@ class CompetitorsAgent(BaseAgent):
         return COMPETITORS_PROMPT.format(
             idea=state["idea"],
             industry=industry,
-            target_audience=state.get("target_audience", "General consumers"),
+            target_audience=target_audience,
             region=region,
-            search_results=search_results,
+            search_results=search_results_str,
             scrape_results=scrape_results
         )
+
     def run(self, state: GraphState) -> dict:
         parsed = super().run(state)
+        return {"competitors": parsed}
 
-        if isinstance(parsed, dict) and "error" not in parsed:
-            validated = self._validate(parsed)
-        else:
-            validated = self._fallback(state)
-
-        return {
-            "competitors": validated
-        }
-
-    def _validate(self, data: dict) -> dict:
-        # -------- competitors --------
-        comps = data.get("competitors", [])
-
-        if not isinstance(comps, list):
-            comps = []
-
-        cleaned_comps = []
-
-        for comp in comps:
-            if not isinstance(comp, dict):
-                continue
-
-            validated_comp = {}
-
-            for field in REQUIRED_FIELDS:
-                value = comp.get(field)
-
-                if isinstance(value, str) and value.strip():
-                    validated_comp[field] = value.strip()[:150]
-                else:
-                    validated_comp[field] = f"Unknown {field}"
-
-            # basic URL fix
-            if not validated_comp["url"].startswith("http"):
-                validated_comp["url"] = "https://example.com"
-
-            cleaned_comps.append(validated_comp)
-
-        # remove duplicates by name
-        seen = set()
-        unique_comps = []
-        for c in cleaned_comps:
-            if c["name"] not in seen:
-                unique_comps.append(c)
-                seen.add(c["name"])
-
-        # enforce limits
-        unique_comps = unique_comps[:5]
-
-        while len(unique_comps) < 3:
-            unique_comps.append(self._dummy_competitor())
-
-        # -------- market gaps --------
-        gaps = data.get("market_gaps", [])
-
-        if not isinstance(gaps, list):
-            gaps = []
-
-        cleaned_gaps = []
-
-        for g in gaps:
-            if isinstance(g, str) and g.strip():
-                cleaned_gaps.append(g.strip()[:150])
-
-        cleaned_gaps = list(dict.fromkeys(cleaned_gaps))[:5]
-
-        while len(cleaned_gaps) < 2:
-            cleaned_gaps.append("Unaddressed niche opportunity in the market")
-
-        return {
-            "competitors": unique_comps,
-            "market_gaps": cleaned_gaps
-        }
-
-    def _dummy_competitor(self) -> dict:
-        return {
-            "name": "Generic Competitor",
-            "url": "https://example.com",
-            "pricing": "Subscription-based model",
-            "value_proposition": "General solution in the market",
-            "strengths": "Established presence",
-            "weaknesses": "Lack of specialization"
-        }
-
-    def _fallback(self, state: GraphState) -> dict:
-        return {
-            "competitors": [
-                self._dummy_competitor(),
-                self._dummy_competitor(),
-                self._dummy_competitor()
-            ],
-            "market_gaps": [
-                "Lack of personalization in current solutions",
-                "No strong focus on target audience needs"
-            ]
-        }
-
-
-# LangGraph node
 def competitors_node(state: GraphState) -> dict:
     return CompetitorsAgent().run(state)

@@ -1,18 +1,30 @@
-from typing import TypedDict, Optional, Dict, Any
+from typing import TypedDict, Optional, Annotated
+import operator
+from schemas.parsed_idea import ParsedIdea
+from schemas.bmc import BMC
+from schemas.market import MarketAnalysis
+from schemas.competitors import Competitors
+from schemas.swot import SWOT
 
-
-class GraphState(TypedDict):
+class GraphState(TypedDict, total=False):
     # 🔹 INPUT
     idea: str
+    run_id: str
 
     # 🔹 DERIVED (from parse_idea)
-    industry: Optional[str]
-    target_audience: Optional[str]
-    region: Optional[str]
+    parsed_idea: Optional[ParsedIdea]
 
     # 🔹 AGENT OUTPUTS
-    bmc: Optional[Dict[str, Any]]
-    market: Optional[Dict[str, Any]]
-    competitors: Optional[Dict[str, Any]]
-    swot: Optional[Dict[str, Any]]
-    ui_code: Optional[str]
+    bmc: Optional[BMC]
+    market: Optional[MarketAnalysis]
+    competitors: Optional[Competitors]
+    swot: Optional[SWOT]
+
+    # 🔹 SSE Events
+    events: Annotated[list[dict], operator.add]
+
+    # 🔹 Retries Tracking
+    bmc_retries: int
+    market_retries: int
+    competitors_retries: int
+    swot_retries: int
