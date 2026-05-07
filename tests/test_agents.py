@@ -1,71 +1,24 @@
-from agents.parse_idea import ParseIdeaAgent
-from agents.bmc_agent import BMCAgent
-from agents.market_agent import MarketAgent
-from agents.competitors_agent import CompetitorsAgent
-from agents.swot_agent import SWOTAgent
-from agents.ui_agent import UIAgent
+from graph.orchestrator import build_graph
+import json
+import uuid
+
 def test_pipeline():
-    # Step 1: initial state
+    graph = build_graph()
+    
     state = {
-        "idea": "AI-powered fitness app for busy professionals"
+        "idea": "Electronics & Gaming Store in Cairo",
+        "run_id": str(uuid.uuid4())
     }
-
-    print("\n=== STEP 1: Parse Idea ===")
-    parse_agent = ParseIdeaAgent()
-    parsed_output = parse_agent.run(state)
-    print(parsed_output)
-
-    # merge state (زي LangGraph)
-    state.update(parsed_output)
-
-    print("\n=== STEP 2: BMC Agent ===")
-    bmc_agent = BMCAgent()
-    bmc_output = bmc_agent.run(state)
-    print(bmc_output)
-
-    # merge state
-    state.update(bmc_output)
-
-    print("\n=== STEP 3: Market Agent ===")
-    market_agent = MarketAgent()
-    market_output = market_agent.run(state)
-    print(market_output)
-
-    state.update(market_output)
-
-    print("\n=== STEP 4: Competitors Agent ===")
-    comp_agent = CompetitorsAgent()
-    comp_output = comp_agent.run(state)
-    print(comp_output)
-
-    state.update(comp_output)
-
-
-    print("\n=== STEP 5: SWOT Agent ===")
-    swot_agent = SWOTAgent()
-    swot_output = swot_agent.run(state)
-    print(swot_output)
-
-    state.update(swot_output)
-
-
-    print("\n=== STEP 6: UI Agent ===")
-    ui_agent = UIAgent()
-    ui_output = ui_agent.run(state)
-
-    print(ui_output["ui_code"][:500])  # أول 500 حرف بس
-    state.update(ui_output)
-
-
-
-
-
+    
+    print("Running graph...")
+    result = graph.invoke(state)
+    
     print("\n=== FINAL STATE ===")
-    print(state)
+    for k, v in result.items():
+        if hasattr(v, "model_dump"):
+            print(f"{k}: {json.dumps(v.model_dump(), indent=2)}")
+        else:
+            print(f"{k}: {v}")
 
 if __name__ == "__main__":
     test_pipeline()
-
-
-
-    

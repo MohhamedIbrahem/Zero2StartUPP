@@ -51,7 +51,7 @@ def is_valid_result(link: str) -> bool:
     return not any(domain in link for domain in blocked_domains)
 
 @traceable(name="serper_search")
-def serper_search(query: str) -> str:
+def serper_search(query: str) -> list:
     try:
         url = "https://google.serper.dev/search"
 
@@ -75,12 +75,17 @@ def serper_search(query: str) -> str:
             title = r.get("title", "")
             snippet = r.get("snippet", "")
 
-            results.append(f"{title} - {snippet} ({link})")
+            results.append({
+                "title": title,
+                "snippet": snippet,
+                "link": link
+            })
 
-            if len(results) >= 5:
+            if len(results) >= 10:
                 break
 
-        return "\n".join(results)
+        return results
 
     except Exception as e:
-        return f"Search failed: {str(e)}"
+        print(f"Serper search failed: {str(e)}")
+        return []

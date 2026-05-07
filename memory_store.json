@@ -1,0 +1,1608 @@
+{
+    "1b1540028596a76c1622efcf3e6726eb": [
+        {
+            "idea": "AI-powered fitness app for busy professionals",
+            "run_id": "8408eca1-3e17-45fc-9e0a-23c172576c9b",
+            "parsed_idea": {
+                "industry": "Healthcare",
+                "target_audience": "Professionals",
+                "region": "Global"
+            },
+            "bmc": {
+                "value_proposition": "Personalized AI-driven fitness coaching, tailored to busy professionals' schedules and goals, with real-time tracking and feedback",
+                "customer_segments": "Urban, educated, and affluent professionals aged 25-45, with a focus on those working in high-stress industries such as finance, law, and technology",
+                "channels": "Mobile app, social media, influencer partnerships, and targeted online advertising, with strategic partnerships with corporate wellness programs and fitness studios",
+                "customer_relationships": "Personalized support through in-app messaging, regular progress updates, and community features to foster engagement and motivation",
+                "revenue_streams": "Subscription-based model ($9.99/month or $99.99/year), in-app purchases for premium features and personalized coaching, and partnerships with health insurance providers and corporate wellness programs",
+                "key_resources": "AI technology and machine learning expertise, experienced fitness coaching team, mobile app development and maintenance, and strategic partnerships with fitness and wellness industry leaders",
+                "key_activities": "Continuous development and improvement of AI-driven fitness coaching, marketing and user acquisition, strategic partnerships and collaborations, and maintenance of high-quality user experience and support",
+                "key_partners": "Fitness studios and gyms, health insurance providers, corporate wellness programs, and influencers and thought leaders in the fitness and wellness industry",
+                "cost_structure": "Development and maintenance of AI technology and mobile app ($150,000/year), marketing and user acquisition ($200,000/year), personnel and operational costs ($300,000/year), and partnership and collaboration expenses ($50,000/year)"
+            },
+            "market": {
+                "tam": "$14.7B",
+                "sam": "$2.2B",
+                "som": "$10M",
+                "assumptions": [
+                    "Global fitness app market valued at $14.7B in 2023 (source: search data)",
+                    "SAM calculated as 15% of TAM focusing on AI-powered segment",
+                    "SOM assumes 0.5% market penetration in first 2 years",
+                    "Bottom-up: 50,000 users \u00d7 $200 annual spend = $10M SOM"
+                ],
+                "market_trends": [
+                    "Growing demand for AI-powered fitness apps",
+                    "Increasing adoption of digital health solutions among professionals",
+                    "Rising awareness of wellness and self-care among busy professionals"
+                ]
+            },
+            "competitors": {
+                "competitors": [
+                    {
+                        "name": "Teladoc",
+                        "pricing_model": "Subscription-based, $0 - $50/month",
+                        "strengths": "Wide range of services, large network of doctors",
+                        "market_gap": "No competitor offers AI-powered fitness plans for busy professionals"
+                    },
+                    {
+                        "name": "Amwell",
+                        "pricing_model": "Freemium, $0 - $59/month",
+                        "strengths": "User-friendly interface, wide range of specialties",
+                        "market_gap": "Most competitors lack integration with wearable devices"
+                    },
+                    {
+                        "name": "Medisafe",
+                        "pricing_model": "Freemium, $0 - $4.99/month",
+                        "strengths": "Medication reminders, personalized health insights",
+                        "market_gap": "No competitor offers personalized nutrition planning for users with dietary restrictions"
+                    },
+                    {
+                        "name": "ZocDoc",
+                        "pricing_model": "Free for patients, subscription-based for doctors",
+                        "strengths": "Easy appointment scheduling, wide range of doctors",
+                        "market_gap": "Most competitors lack real-time insurance eligibility checks"
+                    },
+                    {
+                        "name": "Epocrates",
+                        "pricing_model": "Subscription-based, $174.99 - $249.99/year",
+                        "strengths": "Comprehensive medical reference, clinical decision support",
+                        "market_gap": "No competitor offers AI-powered fitness coaching for mental health"
+                    }
+                ]
+            },
+            "swot": {
+                "strengths": [
+                    "Personalized AI-driven fitness coaching tailored to busy professionals' schedules and goals",
+                    "Experienced fitness coaching team with expertise in AI technology and machine learning",
+                    "Strategic partnerships with fitness and wellness industry leaders",
+                    "Subscription-based model with potential for high revenue streams",
+                    "Global reach through mobile app and online advertising"
+                ],
+                "weaknesses": [
+                    "High development and maintenance costs for AI technology and mobile app",
+                    "Dependence on strategic partnerships for user acquisition and revenue",
+                    "Limited market penetration in the first two years",
+                    "Potential competition from established healthcare and fitness companies",
+                    "Risk of user churn due to high-stress nature of target audience"
+                ],
+                "opportunities": [
+                    "Growing demand for AI-powered fitness apps among busy professionals",
+                    "Increasing adoption of digital health solutions among professionals",
+                    "Rising awareness of wellness and self-care among busy professionals",
+                    "Potential for expansion into new markets and demographics",
+                    "Partnerships with health insurance providers and corporate wellness programs"
+                ],
+                "threats": [
+                    "Competition from established healthcare and fitness companies",
+                    "Rapidly changing market trends and consumer preferences",
+                    "Regulatory challenges and compliance issues in the healthcare industry",
+                    "Dependence on third-party data and API integrations",
+                    "Cybersecurity risks and data breaches affecting user trust and retention"
+                ]
+            },
+            "events": []
+        },
+        {
+            "idea": "AI-powered fitness app for busy professionals",
+            "run_id": "47407ccd-3d0f-4dcc-9ce1-8c7db17a1725",
+            "parsed_idea": {
+                "industry": "Healthcare",
+                "target_audience": "Busy Professionals",
+                "region": "Global"
+            },
+            "bmc": {
+                "value_proposition": "Personalized AI-driven fitness coaching, tailored to busy professionals' schedules and goals, with real-time tracking and feedback",
+                "customer_segments": "Urban, educated, and affluent professionals aged 25-45, with a focus on entrepreneurs, executives, and freelancers",
+                "channels": "Mobile app (iOS and Android), social media, influencer marketing, and strategic partnerships with wellness centers and corporate wellness programs",
+                "customer_relationships": "Personalized support through in-app messaging, regular progress updates, and community engagement through social media groups and forums",
+                "revenue_streams": "Subscription-based model ($19.99/month or $199.99/year), in-app purchases for premium features and personalized coaching, and affiliate partnerships with fitness equipment and supplement providers",
+                "key_resources": "AI technology and machine learning expertise, experienced fitness coaches and trainers, high-quality user interface and user experience design, and strategic partnerships with healthcare and wellness providers",
+                "key_activities": "Developing and refining AI algorithms, creating engaging and effective fitness content, building and maintaining strategic partnerships, and continuously monitoring and improving user experience",
+                "key_partners": "Health and wellness providers, fitness equipment and supplement manufacturers, insurance companies, and corporate wellness programs",
+                "cost_structure": "Development and maintenance of AI technology (30%), marketing and advertising (25%), personnel and operational costs (20%), partnerships and affiliations (15%), and infrastructure and overhead (10%)"
+            },
+            "market": {
+                "tam": "$14.7B",
+                "sam": "$2.2B",
+                "som": "$10M",
+                "assumptions": [
+                    "Global fitness app market valued at $14.7B in 2023 (source: search data)",
+                    "SAM calculated as 15% of TAM focusing on AI-powered segment",
+                    "SOM assumes 0.5% market penetration in first 2 years",
+                    "Bottom-up: 50,000 users \u00d7 $200 annual spend = $10M SOM"
+                ],
+                "market_trends": [
+                    "Growing demand for digital health and wellness solutions",
+                    "Increasing adoption of AI-powered fitness apps among busy professionals",
+                    "Expanding market reach through strategic partnerships and collaborations"
+                ]
+            },
+            "competitors": {
+                "competitors": [
+                    {
+                        "name": "Nike Training Club",
+                        "pricing_model": "Free, with in-app purchases",
+                        "strengths": "Variety of workouts, celebrity trainers",
+                        "market_gap": "No competitor offers AI-personalized plans for users with less than 20 min daily"
+                    },
+                    {
+                        "name": "Strong Workout Tracker Gym Log",
+                        "pricing_model": "Freemium, $4.99/month premium",
+                        "strengths": "Comprehensive workout tracking, customizable routines",
+                        "market_gap": "Most competitors lack integration with corporate wellness programs"
+                    },
+                    {
+                        "name": "FitOn",
+                        "pricing_model": "Freemium, $29.99/year premium",
+                        "strengths": "Personalized fitness plans, social sharing features",
+                        "market_gap": "Pricing gap: no quality option between free apps and $30+/month premium services"
+                    },
+                    {
+                        "name": "Burn.Fit",
+                        "pricing_model": "Subscription-based, $14.99/month",
+                        "strengths": "AI-powered workout planning, progress tracking",
+                        "market_gap": "No competitor offers live coaching sessions for users"
+                    },
+                    {
+                        "name": "Jefit",
+                        "pricing_model": "Freemium, $4.99/month premium",
+                        "strengths": "Large exercise database, community features",
+                        "market_gap": "Most competitors lack a comprehensive nutrition planning component"
+                    },
+                    {
+                        "name": "Aaptiv",
+                        "pricing_model": "Subscription-based, $14.99/month",
+                        "strengths": "Personalized audio coaching, variety of workouts",
+                        "market_gap": "No competitor offers a dedicated platform for mindfulness and meditation"
+                    },
+                    {
+                        "name": "Peloton",
+                        "pricing_model": "Subscription-based, $12.99/month digital, $39/month all-access",
+                        "strengths": "High-quality video workouts, social features",
+                        "market_gap": "Most competitors lack a hardware component for at-home workouts"
+                    },
+                    {
+                        "name": "iFIT",
+                        "pricing_model": "Subscription-based, $15/month",
+                        "strengths": "Personalized fitness plans, Google Maps integration",
+                        "market_gap": "No competitor offers a dedicated platform for outdoor workouts and activities"
+                    }
+                ]
+            },
+            "swot": {
+                "strengths": [
+                    "Personalized AI-driven fitness coaching tailored to busy professionals' schedules and goals",
+                    "Experienced fitness coaches and trainers on staff",
+                    "Strategic partnerships with healthcare and wellness providers",
+                    "High-quality user interface and user experience design",
+                    "AI technology and machine learning expertise"
+                ],
+                "weaknesses": [
+                    "High development and maintenance costs for AI technology (30% of cost structure)",
+                    "Dependence on strategic partnerships for revenue and growth",
+                    "Limited market penetration (0.5% in first 2 years) and reliance on subscription-based model",
+                    "Potential for high customer acquisition costs through marketing and advertising (25% of cost structure)",
+                    "Limited brand recognition and awareness in a crowded market"
+                ],
+                "opportunities": [
+                    "Growing demand for digital health and wellness solutions",
+                    "Increasing adoption of AI-powered fitness apps among busy professionals",
+                    "Expanding market reach through strategic partnerships and collaborations",
+                    "Potential for affiliate partnerships with fitness equipment and supplement providers",
+                    "Opportunity to fill market gaps in AI-personalized plans, live coaching sessions, and comprehensive nutrition planning"
+                ],
+                "threats": [
+                    "Competition from established fitness app providers (e.g. Nike Training Club, FitOn, Peloton)",
+                    "Rapidly changing market trends and consumer preferences in the fitness and wellness industry",
+                    "Potential regulatory challenges and liabilities in the healthcare industry",
+                    "Dependence on third-party providers for fitness equipment and supplement affiliate partnerships",
+                    "Risk of data breaches and cybersecurity threats to sensitive user information"
+                ]
+            },
+            "events": []
+        },
+        {
+            "idea": "AI-powered fitness app for busy professionals",
+            "run_id": "396e2db0-ca4c-4c10-98c0-e13b20d75a46",
+            "parsed_idea": {
+                "industry": "Healthcare",
+                "target_audience": "Professionals",
+                "region": "Global"
+            },
+            "bmc": {
+                "value_proposition": "Personalized AI-driven fitness coaching, tailored to busy professionals' schedules and goals, with real-time tracking and feedback",
+                "customer_segments": "Urban, tech-savvy professionals aged 25-45, with a medium to high disposable income, and a strong interest in health and wellness",
+                "channels": "Mobile app (iOS and Android), social media platforms, influencer partnerships, and targeted online advertising",
+                "customer_relationships": "Personalized in-app support, regular progress updates, and community engagement through social media and forums",
+                "revenue_streams": "Subscription-based model ($9.99/month or $99.99/year), in-app purchases for premium features ($4.99-$9.99), and partnerships with health and wellness businesses",
+                "key_resources": "AI technology, software development team, fitness experts, marketing and advertising budget, and strategic partnerships with health and wellness businesses",
+                "key_activities": "Developing and refining AI algorithms, creating engaging fitness content, marketing and promoting the app, and building strategic partnerships",
+                "key_partners": "Health and wellness businesses, fitness studios, and influencers, as well as technology partners for AI development and integration",
+                "cost_structure": "Software development and maintenance ($150,000/year), marketing and advertising ($200,000/year), staffing and personnel ($300,000/year), and operational costs ($50,000/year)"
+            },
+            "market": {
+                "tam": "$100B",
+                "sam": "$10B",
+                "som": "$50M",
+                "assumptions": [
+                    "Global fitness app market valued at $100B in 2023 (source: search data)",
+                    "SAM calculated as 10% of TAM focusing on AI-powered segment for busy professionals",
+                    "SOM assumes 0.5% market penetration in first 2 years",
+                    "Bottom-up: 1 million users \u00d7 $50 annual spend = $50M SOM"
+                ],
+                "market_trends": [
+                    "Growing demand for digital health and fitness solutions",
+                    "Increasing adoption of AI-powered fitness apps among busy professionals",
+                    "Expanding target audience to include professionals from various industries"
+                ]
+            },
+            "competitors": {
+                "competitors": [
+                    {
+                        "name": "Arvo",
+                        "pricing_model": "\u20ac4/month",
+                        "strengths": "5 proven bodybuilding methodologies and set-by-set AI adaptation",
+                        "market_gap": "No competitor offers similar value at this price point"
+                    },
+                    {
+                        "name": "Juggernaut AI",
+                        "pricing_model": "$35/month",
+                        "strengths": "Strongest periodisation engine for powerlifting",
+                        "market_gap": "High pricing may limit accessibility for casual users"
+                    },
+                    {
+                        "name": "Fitbod",
+                        "pricing_model": "$15.99/month",
+                        "strengths": "Wide exercise library and generic programming",
+                        "market_gap": "Expensive compared to Arvo, may not be the best value for general fitness"
+                    },
+                    {
+                        "name": "Hevy",
+                        "pricing_model": "Free tier with social features",
+                        "strengths": "Full logger and social features without AI generation",
+                        "market_gap": "Lack of AI generation may limit personalized fitness planning"
+                    },
+                    {
+                        "name": "Nimble AppGenie",
+                        "pricing_model": "Not specified",
+                        "strengths": "Adaptive Coaching Engines with machine learning and secure data protection",
+                        "market_gap": "Pricing not publicly available, may be a barrier for some clients"
+                    }
+                ]
+            },
+            "swot": {
+                "strengths": [
+                    "Personalized AI-driven fitness coaching tailored to busy professionals' schedules and goals",
+                    "Real-time tracking and feedback",
+                    "Strong marketing and advertising budget",
+                    "Strategic partnerships with health and wellness businesses",
+                    "AI technology and software development team"
+                ],
+                "weaknesses": [
+                    "Dependence on AI technology and software development team",
+                    "High operational costs ($50,000/year) and staffing costs ($300,000/year)",
+                    "Limited market penetration (0.5% in first 2 years)",
+                    "Potential competition from established fitness apps",
+                    "Limited brand recognition in the global market"
+                ],
+                "opportunities": [
+                    "Growing demand for digital health and fitness solutions",
+                    "Increasing adoption of AI-powered fitness apps among busy professionals",
+                    "Expanding target audience to include professionals from various industries",
+                    "Potential partnerships with health and wellness businesses",
+                    "Global market valued at $100B with a SAM of $10B"
+                ],
+                "threats": [
+                    "Competition from established fitness apps (Arvo, Juggernaut AI, Fitbod, Hevy, Nimble AppGenie)",
+                    "High pricing of similar AI-powered fitness apps (Juggernaut AI at $35/month)",
+                    "Limited accessibility due to high pricing",
+                    "Economic downturn affecting disposable income of target audience",
+                    "Rapidly changing technology landscape requiring continuous AI development and refinement"
+                ]
+            },
+            "events": []
+        }
+    ],
+    "f3cf3815646f997e55893098d3ec91a5": [
+        {
+            "idea": "fried chicken restaurant in Tanta",
+            "run_id": "9c82e7f8-17ab-4ed5-aabe-416dcef70294",
+            "parsed_idea": {
+                "industry": "Food Service",
+                "target_audience": "Local Community",
+                "region": "Egypt"
+            },
+            "bmc": {
+                "value_proposition": "Delicious and authentic Egyptian-style fried chicken with a variety of local flavors and spices, served in a welcoming and modern restaurant environment",
+                "customer_segments": "Local residents, students, and working professionals in Tanta, aged 18-45, with a focus on families and young adults",
+                "channels": "Social media marketing, online ordering and delivery through food apps, in-restaurant dining, and partnerships with local events and festivals",
+                "customer_relationships": "Personalized service, loyalty programs, and regular customer feedback to ensure high satisfaction and retention rates",
+                "revenue_streams": "In-restaurant sales, online ordering and delivery, catering services for events and parties, and sales of branded merchandise",
+                "key_resources": "Experienced chef and kitchen staff, modern restaurant equipment, high-quality food suppliers, and a prime location in downtown Tanta",
+                "key_activities": "Menu development and innovation, staff training and management, marketing and advertising, and supply chain management",
+                "key_partners": "Local food suppliers, restaurant equipment providers, food delivery apps, and event organizers",
+                "cost_structure": "Rent and utilities for the restaurant, food and labor costs, marketing and advertising expenses, equipment maintenance and replacement, and staff training and benefits"
+            },
+            "market": {
+                "tam": "$40887.1M",
+                "sam": "$1000M",
+                "som": "$5M",
+                "assumptions": [
+                    "Egypt foodservice market size was valued at $12385.0 Million in 2025, expected to hit $40887.1 Million at a CAGR of 13.48% during 2026-2034 (source: search data)",
+                    "SAM calculated as 2.5% of TAM focusing on local community restaurants in Egypt",
+                    "SOM assumes 0.5% market penetration in first 2 years, using bottom-up approach: 10,000 customers \u00d7 $500 annual spend = $5M SOM"
+                ],
+                "market_trends": [
+                    "Growing demand for high-quality consumer products in Egypt",
+                    "Increasing competition from European Union, Middle Eastern, and African consumer-oriented food products",
+                    "Growing tourism sector in Egypt, with opportunities for foodservice market growth"
+                ]
+            },
+            "competitors": {
+                "competitors": [
+                    {
+                        "name": "KFC Egypt",
+                        "pricing_model": "Menu-based pricing",
+                        "strengths": "Well-known brand, wide menu range",
+                        "market_gap": "Limited vegan and vegetarian options"
+                    },
+                    {
+                        "name": "Chicken Broast",
+                        "pricing_model": "Value-based pricing",
+                        "strengths": "High-quality chicken, convenient locations",
+                        "market_gap": "Limited online presence"
+                    },
+                    {
+                        "name": "Popeyes Egypt",
+                        "pricing_model": "Tiered pricing",
+                        "strengths": "Unique flavors, spicy options",
+                        "market_gap": "Limited availability of healthy options"
+                    }
+                ]
+            },
+            "swot": {
+                "strengths": [
+                    "Experienced chef and kitchen staff",
+                    "Modern restaurant equipment",
+                    "High-quality food suppliers",
+                    "Prime location in downtown Tanta",
+                    "Unique Egyptian-style fried chicken with local flavors and spices",
+                    "Personalized service and loyalty programs"
+                ],
+                "weaknesses": [
+                    "Limited online presence and delivery capabilities compared to competitors",
+                    "Dependence on local food suppliers and potential supply chain disruptions",
+                    "High labor and food costs in Egypt",
+                    "Limited market penetration and brand recognition",
+                    "Potential difficulties in maintaining high-quality products and services"
+                ],
+                "opportunities": [
+                    "Growing demand for high-quality consumer products in Egypt",
+                    "Increasing tourism sector in Egypt with opportunities for foodservice market growth",
+                    "Partnerships with local events and festivals to increase brand visibility",
+                    "Expansion of online ordering and delivery services through food apps",
+                    "Introduction of new and innovative menu items to attract a wider customer base"
+                ],
+                "threats": [
+                    "Intense competition from established brands like KFC Egypt, Chicken Broast, and Popeyes Egypt",
+                    "Limited market share and potential difficulties in gaining traction",
+                    "Fluctuations in food prices and availability due to supply chain disruptions",
+                    "Changing consumer preferences and tastes in the Egyptian market",
+                    "Potential economic downturns or recessions affecting consumer spending habits"
+                ]
+            },
+            "events": [
+                {
+                    "event": "data_corrected",
+                    "step": "competitors_checker",
+                    "corrections": [
+                        {
+                            "issue": "irrelevant_competitors: Talabat, Breadfast, Elmenus, 8Orders, and Menu Egypt are food delivery platforms, not fried chicken restaurants, while KFC Egypt is a direct competitor as it is also a fried chicken restaurant",
+                            "action": "rewrote_with_context"
+                        }
+                    ],
+                    "timestamp": "2026-05-06T21:19:16.862845"
+                },
+                {
+                    "event": "data_corrected",
+                    "step": "competitors_checker",
+                    "corrections": [
+                        {
+                            "issue": "irrelevant_competitors: Talabat, Breadfast, Elmenus, 8Orders, and Menu Egypt are food delivery platforms, not fried chicken restaurants, while KFC Egypt is a direct competitor as it is also a fried chicken restaurant",
+                            "action": "rewrote_with_context"
+                        }
+                    ],
+                    "timestamp": "2026-05-06T21:19:16.862845"
+                }
+            ]
+        },
+        {
+            "idea": "fried chicken restaurant in Tanta",
+            "run_id": "60cb7108-846c-4886-8bb3-0224893d6048",
+            "parsed_idea": {
+                "industry": "Food Service",
+                "target_audience": "Local Residents",
+                "region": "Egypt"
+            },
+            "bmc": {
+                "value_proposition": "Delicious and authentic Egyptian-style fried chicken with a variety of local flavors and spices, served in a welcoming and modern restaurant environment",
+                "customer_segments": "Local residents of Tanta, including families, young professionals, and students, who are looking for a quick, affordable, and tasty meal",
+                "channels": "Social media marketing, online ordering and delivery through food apps, in-restaurant dining, take-out, and catering services for local events and parties",
+                "customer_relationships": "Personalized service, loyalty programs, and regular customer engagement through social media and email newsletters to build a loyal customer base",
+                "revenue_streams": "In-restaurant sales, online ordering and delivery fees, catering services, and partnerships with local businesses to offer meal discounts and promotions",
+                "key_resources": "Experienced chefs and kitchen staff, high-quality food ingredients, modern restaurant equipment, and a prime location in the heart of Tanta",
+                "key_activities": "Menu development and innovation, supply chain management, staff training and development, marketing and advertising, and maintaining high standards of food quality and customer service",
+                "key_partners": "Local food suppliers, restaurant equipment providers, food delivery apps, and local businesses and organizations for catering and partnership opportunities",
+                "cost_structure": "Rent and utilities for the restaurant location, food and ingredient costs, staff salaries and benefits, marketing and advertising expenses, equipment maintenance and replacement, and insurance and regulatory compliance costs"
+            },
+            "market": {
+                "tam": "$40887.1M",
+                "sam": "$1000M",
+                "som": "$5M",
+                "assumptions": [
+                    "Egypt foodservice market size was valued at $12385.0M in 2025, expected to hit $40887.1M at a CAGR of 13.48% during 2026-2034 (source: search data)",
+                    "SAM calculated as 2.5% of TAM focusing on local residents in Egypt",
+                    "SOM assumes 0.5% market penetration in first 2 years using bottom-up approach: 10,000 users \u00d7 $500 annual spend = $5M SOM"
+                ],
+                "market_trends": [
+                    "Growing demand for high-quality consumer products in Egypt",
+                    "Increasing competition from European Union, Middle Eastern, and African consumer-oriented food products",
+                    "Growing tourism sector in Egypt"
+                ]
+            },
+            "competitors": {
+                "competitors": [
+                    {
+                        "name": "Kokio",
+                        "pricing_model": "$10-$15 per meal, premium options available",
+                        "strengths": "Specialty fried chicken restaurant, high-quality ingredients",
+                        "market_gap": "Limited presence in Tanta, mostly located in Cairo"
+                    },
+                    {
+                        "name": "Spicy Chicken",
+                        "pricing_model": "$10-$15 per meal, subscription available",
+                        "strengths": "Spicy chicken specialty, supportive of local causes",
+                        "market_gap": "Limited online ordering and delivery options"
+                    },
+                    {
+                        "name": "Chicken Broast",
+                        "pricing_model": "$8-$12 per meal, discounts for students",
+                        "strengths": "Variety of fried chicken flavors, quick service",
+                        "market_gap": "No competitor offers a fried chicken and rice bowl combination"
+                    }
+                ]
+            },
+            "swot": {
+                "strengths": [
+                    "Experienced chefs and kitchen staff",
+                    "High-quality food ingredients",
+                    "Modern restaurant equipment",
+                    "Prime location in the heart of Tanta",
+                    "Delicious and authentic Egyptian-style fried chicken",
+                    "Variety of local flavors and spices",
+                    "Welcoming and modern restaurant environment"
+                ],
+                "weaknesses": [
+                    "Dependence on local food suppliers",
+                    "High staff salaries and benefits",
+                    "Marketing and advertising expenses",
+                    "Equipment maintenance and replacement costs",
+                    "Insurance and regulatory compliance costs",
+                    "Limited online presence"
+                ],
+                "opportunities": [
+                    "Growing demand for high-quality consumer products in Egypt",
+                    "Increasing tourism sector in Egypt",
+                    "Partnerships with local businesses to offer meal discounts and promotions",
+                    "Expansion of online ordering and delivery services",
+                    "Introduction of new menu items and flavors",
+                    "Targeting students and young professionals with affordable meal options"
+                ],
+                "threats": [
+                    "Competition from established brands like Kokio and Spicy Chicken",
+                    "Limited market penetration in the first two years",
+                    "Fluctuations in food prices and ingredient availability",
+                    "Changing consumer preferences and tastes",
+                    "Economic downturn or recession in Egypt",
+                    "Increasing competition from European Union, Middle Eastern, and African consumer-oriented food products"
+                ]
+            },
+            "events": [
+                {
+                    "event": "data_corrected",
+                    "step": "competitors_checker",
+                    "corrections": [
+                        {
+                            "issue": "irrelevant_competitors: Not all listed competitors are fried chicken restaurants, some are burger joints or general restaurants and cafes",
+                            "action": "rewrote_with_context"
+                        }
+                    ],
+                    "timestamp": "2026-05-06T21:40:39.494942"
+                },
+                {
+                    "event": "data_corrected",
+                    "step": "competitors_checker",
+                    "corrections": [
+                        {
+                            "issue": "irrelevant_competitors: Not all listed competitors are fried chicken restaurants, some are burger joints or general restaurants and cafes",
+                            "action": "rewrote_with_context"
+                        }
+                    ],
+                    "timestamp": "2026-05-06T21:40:39.494942"
+                }
+            ]
+        }
+    ],
+    "71e4bb448a0543f6e095465a1ef4547b": [
+        {
+            "idea": "supermarket in Tanta",
+            "run_id": "f6fc434f-f5c2-4471-9d6b-a4cd0d27bb0c",
+            "parsed_idea": {
+                "industry": "Retail",
+                "target_audience": "Local Consumers",
+                "region": "Egypt"
+            },
+            "bmc": {
+                "value_proposition": "Convenient and affordable shopping experience with a wide range of products, including fresh produce, meats, dairy products, and household essentials, catering to the daily needs of local consumers in Tanta",
+                "customer_segments": "Middle and lower-middle-class families, young professionals, and retirees living in Tanta, with a focus on women and household decision-makers",
+                "channels": "Physical supermarket store, online shopping platform with home delivery and curbside pickup options, and social media platforms for marketing and customer engagement",
+                "customer_relationships": "Personalized customer service, loyalty programs, and regular promotions to build strong relationships with customers and encourage repeat business",
+                "revenue_streams": "Sales of food and non-food products, including private label products, sales of prepared foods and beverages, and partnerships with local suppliers to offer exclusive products",
+                "key_resources": "Strategic location in a busy shopping district, modern and well-maintained store facilities, inventory management system, and a team of experienced retail professionals",
+                "key_activities": "Sourcing and procuring high-quality products at competitive prices, managing inventory and supply chain logistics, training and developing staff to provide excellent customer service, and implementing effective marketing and promotional strategies",
+                "key_partners": "Local farmers and suppliers, food and beverage manufacturers, logistics and transportation providers, and banks and financial institutions for financing and payment processing",
+                "cost_structure": "Rent and utilities for store location, inventory and supply chain costs, employee salaries and benefits, marketing and advertising expenses, and maintenance and upkeep of store facilities and equipment"
+            },
+            "market": {
+                "tam": "$100B",
+                "sam": "$5B",
+                "som": "$10M",
+                "assumptions": [
+                    "Global retail market valued at $100B in 2023 (source: search data)",
+                    "SAM calculated as 5% of TAM focusing on Egyptian market segment",
+                    "SOM assumes 0.2% market penetration in first 2 years using bottom-up approach: 50,000 customers \u00d7 $200 annual spend = $10M SOM"
+                ],
+                "market_trends": [
+                    "Growing demand for online and offline retail in Egypt",
+                    "Increasing competition in the Egyptian retail market",
+                    "Rise of digital payments and e-commerce in Egypt"
+                ]
+            },
+            "competitors": {
+                "competitors": [
+                    {
+                        "name": "Seoudi Supermarket",
+                        "pricing_model": "Variable pricing based on product and location",
+                        "strengths": "Established brand with wide range of products",
+                        "market_gap": "Lack of online shopping platform for seamless customer experience"
+                    },
+                    {
+                        "name": "Carrefour",
+                        "pricing_model": "Competitive pricing with loyalty programs",
+                        "strengths": "International brand with diverse product offerings",
+                        "market_gap": "Limited presence in smaller cities and towns"
+                    },
+                    {
+                        "name": "Spinneys",
+                        "pricing_model": "Premium pricing for high-quality products",
+                        "strengths": "Reputation for fresh produce and excellent customer service",
+                        "market_gap": "Higher prices may deter budget-conscious consumers"
+                    },
+                    {
+                        "name": "Lulu Hypermarket",
+                        "pricing_model": "Discounted prices for bulk purchases",
+                        "strengths": "Wide range of products under one roof, including electronics and clothing",
+                        "market_gap": "Limited online presence and delivery options"
+                    },
+                    {
+                        "name": "Abdullah AlOthaim Markets",
+                        "pricing_model": "Competitive pricing with frequent promotions",
+                        "strengths": "Strong presence in the Middle East with a wide range of products",
+                        "market_gap": "Limited international brand recognition"
+                    },
+                    {
+                        "name": "Kheir Zaman",
+                        "pricing_model": "Variable pricing based on product and location",
+                        "strengths": "Established local brand with strong community ties",
+                        "market_gap": "Limited online presence and lack of modern shopping experience"
+                    },
+                    {
+                        "name": "Hyper One",
+                        "pricing_model": "Discounted prices for bulk purchases",
+                        "strengths": "Wide range of products, including electronics and home appliances",
+                        "market_gap": "Limited presence in smaller cities and towns"
+                    },
+                    {
+                        "name": "Alfa Supermarkets",
+                        "pricing_model": "Competitive pricing with loyalty programs",
+                        "strengths": "Modern shopping experience with a wide range of products",
+                        "market_gap": "Limited international brand recognition"
+                    }
+                ]
+            },
+            "swot": {
+                "strengths": [
+                    "Strategic location in a busy shopping district in Tanta",
+                    "Modern and well-maintained store facilities",
+                    "Experienced retail professionals",
+                    "Personalized customer service and loyalty programs",
+                    "Wide range of products, including fresh produce, meats, dairy products, and household essentials"
+                ],
+                "weaknesses": [
+                    "Limited online presence and delivery options compared to competitors",
+                    "Dependence on local suppliers and logistics providers",
+                    "High employee salaries and benefits",
+                    "Marketing and advertising expenses",
+                    "Maintenance and upkeep of store facilities and equipment"
+                ],
+                "opportunities": [
+                    "Growing demand for online and offline retail in Egypt",
+                    "Increasing demand for digital payments and e-commerce",
+                    "Partnerships with local farmers and suppliers to offer exclusive products",
+                    "Expansion into smaller cities and towns in Egypt",
+                    "Introduction of private label products to increase profit margins"
+                ],
+                "threats": [
+                    "Increasing competition in the Egyptian retail market",
+                    "Established brands such as Seoudi Supermarket, Carrefour, and Spinneys",
+                    "Limited international brand recognition",
+                    "Fluctuations in global food prices and supply chain disruptions",
+                    "Economic downturn and changes in consumer spending habits"
+                ]
+            },
+            "events": []
+        },
+        {
+            "idea": "supermarket in tanta",
+            "run_id": "5fd327b9-826d-4c44-a70a-af9d55115d13",
+            "parsed_idea": {
+                "industry": "Retail",
+                "target_audience": "Local Residents",
+                "region": "Tanta"
+            },
+            "bmc": {
+                "value_proposition": "One-stop shopping experience for local residents in Tanta, offering a wide range of fresh produce, meats, dairy products, and household essentials at competitive prices",
+                "customer_segments": "Middle to upper-middle-class local residents, including families and individuals, living in Tanta and surrounding areas",
+                "channels": "Physical supermarket store, online shopping platform with home delivery and curbside pickup options, social media and email marketing, and partnerships with local food delivery services",
+                "customer_relationships": "Personalized customer service, loyalty programs, and regular promotions to build strong relationships with customers and encourage repeat business",
+                "revenue_streams": "Sales of groceries and household essentials, online shopping and delivery fees, partnerships with local food suppliers and manufacturers, and in-store advertising and promotions",
+                "key_resources": "Large retail space in a prime location, modern inventory management and point-of-sale systems, refrigerated storage and transportation, and a team of experienced retail professionals",
+                "key_activities": "Sourcing and purchasing high-quality products, managing inventory and supply chain logistics, maintaining a clean and welcoming store environment, and training staff to provide excellent customer service",
+                "key_partners": "Local farmers and food suppliers, national manufacturers and distributors, food delivery services, and banking and financial institutions",
+                "cost_structure": "Rent and utilities for retail space, inventory and supply chain costs, employee salaries and benefits, marketing and advertising expenses, insurance and security costs, and maintenance and equipment expenses"
+            },
+            "market": {
+                "tam": "$100B",
+                "sam": "$10B",
+                "som": "$50M",
+                "assumptions": [
+                    "Global retail market valued at $100B in 2023 (source: search data)",
+                    "SAM calculated as 10% of TAM focusing on the Egyptian market",
+                    "SOM assumes 0.5% market penetration in first 2 years in Tanta region",
+                    "Bottom-up: 100,000 potential customers \u00d7 $500 average annual spend = $50M SOM"
+                ],
+                "market_trends": [
+                    "Growing demand for supermarkets in Egypt",
+                    "Increasing middle class with rising disposable income",
+                    "Competition from existing retailers, but opportunity for niche market capture"
+                ]
+            },
+            "competitors": {
+                "competitors": [
+                    {
+                        "name": "Carrefour",
+                        "pricing_model": "Variable, frequent promotions",
+                        "strengths": "Largest assortment, strong supply chain",
+                        "market_gap": "No competitor offers same-day delivery in all major Egyptian cities"
+                    },
+                    {
+                        "name": "Spinneys",
+                        "pricing_model": "Premium, subscription-based",
+                        "strengths": "High-quality products, strong brand reputation",
+                        "market_gap": "Limited online presence and delivery options"
+                    },
+                    {
+                        "name": "Fathallah",
+                        "pricing_model": "Mid-range, loyalty program",
+                        "strengths": "Wide selection of local products, convenient locations",
+                        "market_gap": "No online shopping platform, limited delivery options"
+                    },
+                    {
+                        "name": "Kazion",
+                        "pricing_model": "Budget-friendly, cashback rewards",
+                        "strengths": "Affordable prices, wide selection of household items",
+                        "market_gap": "Limited fresh produce selection, no online shopping option"
+                    },
+                    {
+                        "name": "Tashkent Supermarket",
+                        "pricing_model": "Specialty, \u00e0 la carte",
+                        "strengths": "Unique Uzbek and Central Asian products, prepared foods",
+                        "market_gap": "Limited geographical presence, no online shopping option"
+                    }
+                ]
+            },
+            "swot": {
+                "strengths": [
+                    "One-stop shopping experience for local residents in Tanta",
+                    "Wide range of fresh produce, meats, dairy products, and household essentials at competitive prices",
+                    "Large retail space in a prime location",
+                    "Modern inventory management and point-of-sale systems",
+                    "Refrigerated storage and transportation",
+                    "Experienced retail professionals",
+                    "Personalized customer service, loyalty programs, and regular promotions"
+                ],
+                "weaknesses": [
+                    "High rent and utilities for retail space",
+                    "Inventory and supply chain costs",
+                    "Employee salaries and benefits",
+                    "Marketing and advertising expenses",
+                    "Insurance and security costs",
+                    "Maintenance and equipment expenses",
+                    "Limited online presence and delivery options compared to competitors"
+                ],
+                "opportunities": [
+                    "Growing demand for supermarkets in Egypt",
+                    "Increasing middle class with rising disposable income",
+                    "Opportunity for niche market capture",
+                    "Partnerships with local food suppliers and manufacturers",
+                    "In-store advertising and promotions",
+                    "Expansion of online shopping platform with home delivery and curbside pickup options"
+                ],
+                "threats": [
+                    "Competition from existing retailers such as Carrefour, Spinneys, Fathallah, and Kazion",
+                    "Limited market penetration in the first 2 years in the Tanta region",
+                    "Global retail market fluctuations",
+                    "Changes in consumer spending habits and preferences",
+                    "Supply chain disruptions and logistics challenges",
+                    "Economic downturn and recession"
+                ]
+            },
+            "events": []
+        },
+        {
+            "idea": "supermarket in Tanta",
+            "run_id": "8b7d2a43-fc4d-4a48-9148-4cf477feae33",
+            "parsed_idea": {
+                "industry": "Retail",
+                "target_audience": "Local Residents",
+                "region": "Tanta"
+            },
+            "bmc": {
+                "value_proposition": "Convenient and affordable one-stop shopping experience for local residents in Tanta, offering a wide range of fresh produce, meats, dairy products, and household essentials",
+                "customer_segments": "Low- to middle-income local residents, families, and small business owners in Tanta",
+                "channels": "Physical supermarket store, online shopping platform with home delivery and curbside pickup options, social media marketing, and local advertising",
+                "customer_relationships": "Personalized customer service, loyalty programs, and regular promotions to build strong relationships with customers",
+                "revenue_streams": "Sales of groceries and household essentials, commission-based sales of third-party products, advertising revenue from in-store promotions, and data analytics services for suppliers",
+                "key_resources": "Commercial property lease in a prime location, inventory management system, supply chain network, and skilled staff",
+                "key_activities": "Sourcing and procuring high-quality products, managing inventory and logistics, maintaining a clean and safe store environment, and training staff to provide excellent customer service",
+                "key_partners": "Local farmers and suppliers, national distributors, payment processing providers, and logistics companies",
+                "cost_structure": "Rent and utilities for the store, inventory and supply chain costs, employee salaries and benefits, marketing and advertising expenses, insurance premiums, and technology and equipment maintenance costs"
+            },
+            "market": {
+                "tam": "$100B",
+                "sam": "$10B",
+                "som": "$50M",
+                "assumptions": [
+                    "Global retail market valued at $100B in 2023 (source: search data)",
+                    "SAM calculated as 10% of TAM focusing on the Egyptian market",
+                    "SOM assumes 0.5% market penetration in first 2 years using bottom-up approach: 100,000 customers \u00d7 $500 average annual spend = $50M SOM"
+                ],
+                "market_trends": [
+                    "Growing demand for supermarkets in Egypt",
+                    "Increasing competition in the retail market",
+                    "Rise of online shopping in the region"
+                ]
+            },
+            "competitors": {
+                "competitors": [
+                    {
+                        "name": "Carrefour",
+                        "pricing_model": "Not specified",
+                        "strengths": "High quality perception",
+                        "market_gap": "No competitor offers better quality"
+                    },
+                    {
+                        "name": "Hyper One",
+                        "pricing_model": "Not specified",
+                        "strengths": "Ranked 4th in quality perception",
+                        "market_gap": "Lack of personalized services"
+                    },
+                    {
+                        "name": "Spinneys",
+                        "pricing_model": "Not specified",
+                        "strengths": "Ranked 6th in quality perception",
+                        "market_gap": "Limited online presence"
+                    },
+                    {
+                        "name": "Metro",
+                        "pricing_model": "Not specified",
+                        "strengths": "Ranked 7th in quality perception",
+                        "market_gap": "No unique selling proposition"
+                    },
+                    {
+                        "name": "Kheir Zaman",
+                        "pricing_model": "Not specified",
+                        "strengths": "Ranked 8th in quality perception",
+                        "market_gap": "Limited market coverage"
+                    },
+                    {
+                        "name": "BIM",
+                        "pricing_model": "Not specified",
+                        "strengths": "Ranked 9th in quality perception",
+                        "market_gap": "Lack of digital transformation"
+                    },
+                    {
+                        "name": "Ragab Sons",
+                        "pricing_model": "Not specified",
+                        "strengths": "Ranked 10th in quality perception",
+                        "market_gap": "No online shopping option"
+                    }
+                ]
+            },
+            "swot": {
+                "strengths": [
+                    "Convenient and affordable one-stop shopping experience for local residents in Tanta",
+                    "Wide range of fresh produce, meats, dairy products, and household essentials",
+                    "Commercial property lease in a prime location",
+                    "Skilled staff providing excellent customer service",
+                    "Personalized customer service, loyalty programs, and regular promotions"
+                ],
+                "weaknesses": [
+                    "Dependence on a few large suppliers for inventory",
+                    "High employee salaries and benefits",
+                    "Marketing and advertising expenses",
+                    "Insurance premiums and technology maintenance costs",
+                    "Limited online presence and digital transformation"
+                ],
+                "opportunities": [
+                    "Growing demand for supermarkets in Egypt",
+                    "Increasing demand for online shopping in the region",
+                    "Partnership opportunities with local farmers and suppliers",
+                    "Expansion into new markets and customer segments",
+                    "Introduction of new products and services to differentiate from competitors"
+                ],
+                "threats": [
+                    "Increasing competition in the retail market",
+                    "Rise of online shopping and potential disruption to traditional retail models",
+                    "Economic downturn or recession affecting consumer spending",
+                    "Supply chain disruptions or inventory management issues",
+                    "Competitors with strong brand recognition and quality perception, such as Carrefour and Hyper One"
+                ]
+            },
+            "events": []
+        }
+    ],
+    "fd1c84149e8c71079dd5922d7682662e": [
+        {
+            "idea": "\u062c\u064a\u0645 \u0641\u064a \u0627\u0644\u0634\u064a\u062e \u0632\u0627\u064a\u062f",
+            "run_id": "0acb3153-0e76-4cbb-be6f-9abc7e1e9187",
+            "parsed_idea": {
+                "industry": "Fitness",
+                "target_audience": "Youth",
+                "region": "Sheikh Zayed"
+            },
+            "bmc": {
+                "value_proposition": "State-of-the-art fitness equipment, expert trainers, and a vibrant community for youth in Sheikh Zayed to achieve their fitness goals",
+                "customer_segments": "Youth aged 18-30 living in Sheikh Zayed, fitness enthusiasts, and individuals seeking a healthy lifestyle",
+                "channels": "Social media marketing, influencer partnerships, local events, and referrals",
+                "customer_relationships": "Personalized training sessions, group fitness classes, and regular progress tracking",
+                "revenue_streams": "Membership subscriptions (EGP 1,500/month), personal training sessions (EGP 500/session), and fitness workshops (EGP 200/session)",
+                "key_resources": "Commercial gym space in Sheikh Zayed, high-quality fitness equipment, certified trainers, and marketing team",
+                "key_activities": "Developing and implementing effective workout routines, maintaining equipment, and creating engaging social media content",
+                "key_partners": "Fitness equipment suppliers, health and wellness brands, and local businesses in Sheikh Zayed",
+                "cost_structure": "Rent (EGP 50,000/month), equipment maintenance (EGP 10,000/month), trainer salaries (EGP 30,000/month), marketing expenses (EGP 20,000/month), and utilities (EGP 5,000/month)"
+            },
+            "market": {
+                "tam": "$14.7B",
+                "sam": "$1.1B",
+                "som": "$5.5M",
+                "assumptions": [
+                    "Global fitness market valued at $14.7B in 2023 (source: industry reports)",
+                    "SAM calculated as 7.5% of TAM focusing on youth segment in the Middle East",
+                    "SOM assumes 0.5% market penetration in first 2 years in Sheikh Zayed region",
+                    "Bottom-up: 10,000 users \u00d7 $550 annual spend = $5.5M SOM"
+                ],
+                "market_trends": [
+                    "Growing demand for fitness services among youth in the Middle East",
+                    "Increasing adoption of digital fitness platforms",
+                    "Rising health awareness among young adults in Sheikh Zayed region"
+                ]
+            },
+            "competitors": {
+                "competitors": [
+                    {
+                        "name": "Gold's Gym Sheikh Zayed",
+                        "pricing_model": "Premium",
+                        "strengths": "State-of-the-art equipment and experienced trainers",
+                        "market_gap": "Limited focus on community building and personalized fitness plans"
+                    },
+                    {
+                        "name": "Fitness First Sheikh Zayed",
+                        "pricing_model": "Mid-range",
+                        "strengths": "Variety of group classes and convenient locations",
+                        "market_gap": "Lack of specialized programs for specific fitness goals"
+                    },
+                    {
+                        "name": "Smart Gym Sheikh Zayed",
+                        "pricing_model": "Budget-friendly",
+                        "strengths": "Affordable membership plans and modern facilities",
+                        "market_gap": "Insufficient attention to nutritional advice and post-workout support"
+                    }
+                ]
+            },
+            "swot": {
+                "strengths": [
+                    "State-of-the-art fitness equipment and expert trainers providing personalized fitness plans",
+                    "Vibrant community for youth in Sheikh Zayed fostering a supportive environment for achieving fitness goals",
+                    "Certified trainers and marketing team ensuring high-quality services and effective promotion",
+                    "Personalized training sessions and group fitness classes catering to diverse fitness needs",
+                    "Strategic partnerships with fitness equipment suppliers and health and wellness brands enhancing service offerings"
+                ],
+                "weaknesses": [
+                    "High membership subscription price (EGP 1,500/month) compared to competitors, potentially limiting market penetration",
+                    "Limited commercial gym space in Sheikh Zayed, restricting capacity for growth and expansion",
+                    "Dependence on few key partners for fitness equipment and health and wellness products, increasing vulnerability to supply chain disruptions",
+                    "High rent and equipment maintenance costs (EGP 50,000/month and EGP 10,000/month respectively), impacting profit margins",
+                    "Insufficient focus on digital fitness platforms, potentially hindering competitiveness in the market"
+                ],
+                "opportunities": [
+                    "Growing demand for fitness services among youth in the Middle East, driven by increasing health awareness and desire for active lifestyles",
+                    "Increasing adoption of digital fitness platforms, presenting opportunities for expansion into online services and reaching a broader audience",
+                    "Rising health awareness among young adults in Sheikh Zayed region, creating a receptive market for fitness and wellness services",
+                    "Potential partnerships with local businesses and health and wellness brands, enabling cross-promotions and enhancing service offerings",
+                    "Expanding services to include nutritional advice and post-workout support, catering to the holistic fitness needs of members"
+                ],
+                "threats": [
+                    "Competition from established gyms like Gold's Gym and Fitness First, potentially attracting price-sensitive customers and those seeking diverse fitness options",
+                    "Smart Gym's budget-friendly pricing model attracting price-sensitive customers and threatening market share",
+                    "Limited market penetration in Sheikh Zayed region (0.5% in first 2 years), requiring strategic marketing and outreach efforts to increase awareness and attract new members",
+                    "Global fitness market fluctuations affecting local demand, necessitating adaptability and responsiveness to changing market conditions",
+                    "Economic downturn affecting disposable income and membership subscriptions, potentially impacting revenue and profitability"
+                ]
+            },
+            "events": [
+                {
+                    "event": "data_corrected",
+                    "step": "competitors_checker",
+                    "corrections": [
+                        {
+                            "issue": "too_few_competitors",
+                            "action": "rewrote_with_context"
+                        }
+                    ],
+                    "timestamp": "2026-05-07T16:37:56.130478"
+                },
+                {
+                    "event": "data_corrected",
+                    "step": "competitors_checker",
+                    "corrections": [
+                        {
+                            "issue": "too_few_competitors",
+                            "action": "rewrote_with_context"
+                        }
+                    ],
+                    "timestamp": "2026-05-07T16:37:56.130478"
+                },
+                {
+                    "event": "data_corrected",
+                    "step": "swot_checker",
+                    "corrections": [
+                        {
+                            "issue": "vague_item_in_strengths",
+                            "action": "rewrote_with_context"
+                        }
+                    ],
+                    "timestamp": "2026-05-07T16:37:59.220072"
+                }
+            ]
+        }
+    ],
+    "13e786b5d5119852564992f7b6dafa66": [
+        {
+            "idea": "Egyptian food restaurant in Alexandria",
+            "run_id": "65656d25-3cd2-4425-ac8a-b04f5683f49c",
+            "parsed_idea": {
+                "industry": "Food Service",
+                "target_audience": "Locals",
+                "region": "Alexandria"
+            },
+            "bmc": {
+                "value_proposition": "Authentic Egyptian cuisine with a modern twist, using high-quality ingredients and traditional cooking methods, served in a cozy and welcoming atmosphere",
+                "customer_segments": "Middle to upper-class locals in Alexandria, aged 25-50, who appreciate traditional Egyptian food and are looking for a unique dining experience",
+                "channels": "Social media marketing, online ordering and delivery platforms, local food blogs and review websites, word-of-mouth referrals, and partnerships with local event planners and catering services",
+                "customer_relationships": "Personalized service, loyalty programs, and regular customer feedback to ensure a high level of customer satisfaction and retention",
+                "revenue_streams": "Dine-in sales, take-out and delivery orders, catering services for events and parties, and online ordering and delivery commissions",
+                "key_resources": "Experienced Egyptian chefs, high-quality kitchen equipment, prime location in Alexandria, and a strong online presence",
+                "key_activities": "Menu development and innovation, staff training and management, marketing and advertising, supply chain management, and customer service",
+                "key_partners": "Local food suppliers, beverage distributors, kitchen equipment providers, and online ordering and delivery platforms",
+                "cost_structure": "Rent and utilities for the restaurant location, staff salaries and benefits, food and beverage costs, marketing and advertising expenses, kitchen equipment maintenance and replacement, and online ordering and delivery platform fees"
+            },
+            "market": {
+                "tam": "$100B",
+                "sam": "$1B",
+                "som": "$5M",
+                "assumptions": [
+                    "Global food service market valued at $100B in 2023 (source: search data)",
+                    "SAM calculated as 1% of TAM focusing on Egyptian food segment",
+                    "SOM assumes 0.5% market penetration in first 2 years in Alexandria",
+                    "Bottom-up: 10,000 users \u00d7 $500 annual spend = $5M SOM"
+                ],
+                "market_trends": [
+                    "Growing demand for international cuisine in Alexandria",
+                    "Increasing popularity of food delivery services",
+                    "Competition from established local restaurants"
+                ]
+            },
+            "competitors": {
+                "competitors": [
+                    {
+                        "name": "Koshari Abou Tarek",
+                        "pricing_model": "Affordable, $5-$10 per meal",
+                        "strengths": "Authentic Egyptian koshari, rich flavors, and generous portions",
+                        "market_gap": "Limited options for traditional Egyptian comfort food in Alexandria"
+                    },
+                    {
+                        "name": "Mohamed Ahmed",
+                        "pricing_model": "Moderate, $10-$20 per meal",
+                        "strengths": "Wide variety of Egyptian dishes, including falafel and shawarma, in a cozy setting",
+                        "market_gap": "Few restaurants offer a broad range of Egyptian cuisine with a welcoming atmosphere"
+                    },
+                    {
+                        "name": "Abou El Sid",
+                        "pricing_model": "Upscale, $20-$50 per meal",
+                        "strengths": "Refined Egyptian cuisine, elegant ambiance, and exceptional service",
+                        "market_gap": "High-end Egyptian dining options are scarce in Alexandria"
+                    }
+                ]
+            },
+            "swot": {
+                "strengths": [
+                    "Experienced Egyptian chefs with knowledge of traditional cooking methods",
+                    "High-quality kitchen equipment to ensure consistency in food preparation",
+                    "Prime location in Alexandria to attract middle to upper-class locals",
+                    "Strong online presence through social media and online ordering platforms",
+                    "Unique value proposition of authentic Egyptian cuisine with a modern twist"
+                ],
+                "weaknesses": [
+                    "Dependence on a few key suppliers for high-quality ingredients",
+                    "Limited marketing budget to compete with established local restaurants",
+                    "Potential difficulties in maintaining consistency in food quality and service",
+                    "Rent and utilities costs for the restaurant location in Alexandria",
+                    "Limited staff training and management resources"
+                ],
+                "opportunities": [
+                    "Growing demand for international cuisine in Alexandria",
+                    "Increasing popularity of food delivery services in the region",
+                    "Partnerships with local event planners and catering services to expand revenue streams",
+                    "Expansion of online ordering and delivery platforms to increase customer reach",
+                    "Developing a loyalty program to retain customers and encourage repeat business"
+                ],
+                "threats": [
+                    "Competition from established local restaurants such as Koshari Abou Tarek and Abou El Sid",
+                    "Changing consumer preferences and trends in the food service industry",
+                    "Fluctuations in food and beverage costs affecting profit margins",
+                    "Intense competition in the online ordering and delivery market",
+                    "Potential economic downturn affecting disposable income and dining-out habits"
+                ]
+            },
+            "events": [
+                {
+                    "event": "data_corrected",
+                    "step": "competitors_checker",
+                    "corrections": [
+                        {
+                            "issue": "too_few_competitors",
+                            "action": "rewrote_with_context"
+                        }
+                    ],
+                    "timestamp": "2026-05-07T16:42:53.845824"
+                },
+                {
+                    "event": "data_corrected",
+                    "step": "competitors_checker",
+                    "corrections": [
+                        {
+                            "issue": "too_few_competitors",
+                            "action": "rewrote_with_context"
+                        }
+                    ],
+                    "timestamp": "2026-05-07T16:42:53.845824"
+                }
+            ]
+        }
+    ],
+    "0c28498c5dc0f504e53962f8d221d094": [
+        {
+            "idea": "Egyptian food restaurant in Cairo",
+            "run_id": "5e578c05-0b39-4fed-88fc-149f9a7abb73",
+            "parsed_idea": {
+                "industry": "Food Service",
+                "target_audience": "Locals",
+                "region": "Cairo"
+            },
+            "bmc": {
+                "value_proposition": "Authentic Egyptian cuisine with a modern twist, using high-quality ingredients and traditional cooking methods, in a welcoming and culturally rich atmosphere",
+                "customer_segments": "Middle to upper-class locals in Cairo, aged 25-50, who value traditional Egyptian food and culture, as well as young professionals and families",
+                "channels": "Social media marketing, online ordering and delivery platforms, partnerships with local event planners and catering services, and word-of-mouth referrals",
+                "customer_relationships": "Personalized service, loyalty programs, and regular community events and promotions to foster a sense of belonging and connection with customers",
+                "revenue_streams": "Dine-in sales, take-out and delivery orders, catering services for events and parties, and merchandise sales, with average meal prices ranging from 100-250 EGP",
+                "key_resources": "Experienced Egyptian chefs, high-quality kitchen equipment, prime location in a busy Cairo neighborhood, and a strong online presence",
+                "key_activities": "Menu development and innovation, staff training and management, marketing and advertising, supply chain management, and maintaining high standards of food quality and safety",
+                "key_partners": "Local food suppliers, beverage distributors, event planning companies, and social media influencers",
+                "cost_structure": "Rent and utilities for the restaurant location, food and beverage costs, staff salaries and benefits, marketing and advertising expenses, kitchen equipment and maintenance, and insurance and regulatory fees, with estimated monthly costs around 500,000 EGP"
+            },
+            "market": {
+                "tam": "$40887.1M",
+                "sam": "$36921.7M",
+                "som": "$50M",
+                "assumptions": [
+                    "Egypt foodservice market size was valued at $12385.0M in 2025, expected to hit $40887.1M at a CAGR of 13.48% during 2026-2034 (source: search data)",
+                    "SAM calculated as the Egypt foodservice market size expected to reach $36921.7M by 2033, focusing on the local market in Cairo",
+                    "SOM assumes 0.14% market penetration in first 2 years, using a bottom-up approach: 100,000 customers \u00d7 $500 average annual spend = $50M SOM"
+                ],
+                "market_trends": [
+                    "Government formalization of street vendors and GCC franchisors\u2019 accelerated entry are expected to widen participation in the Egypt foodservice market",
+                    "The trend accelerates as Egypt's projected GDP recovery to 4.4-4.5% in FY2024/25 and 5.5% over the medium term creates employment opportunities and wage growth across service sectors",
+                    "Third-party delivery platforms are expanding coverage beyond major urban centers, creating market access for cloud kitchen operators in secondary cities"
+                ]
+            },
+            "competitors": {
+                "competitors": [
+                    {
+                        "name": "Al Khal",
+                        "pricing_model": "Fine Dining",
+                        "strengths": "Traditional Egyptian dishes with modern twist",
+                        "market_gap": "No competitor offers unique modern twist"
+                    },
+                    {
+                        "name": "Egyptian Night",
+                        "pricing_model": "Mid-range",
+                        "strengths": "Highly rated by travelers",
+                        "market_gap": "Limited online presence"
+                    },
+                    {
+                        "name": "Koshary Abou Tarek",
+                        "pricing_model": "Cheap Eats",
+                        "strengths": "Popular among locals",
+                        "market_gap": "Limited seating capacity"
+                    },
+                    {
+                        "name": "Zitouni Restaurant",
+                        "pricing_model": "Mid-range",
+                        "strengths": "Authentic Egyptian dishes with great views",
+                        "market_gap": "Limited online reservations"
+                    },
+                    {
+                        "name": "Abu Tarek Restaurant",
+                        "pricing_model": "Mid-range",
+                        "strengths": "Traditional Egyptian cuisine",
+                        "market_gap": "No online ordering system"
+                    }
+                ]
+            },
+            "swot": {
+                "strengths": [
+                    "Experienced Egyptian chefs with knowledge of traditional cooking methods",
+                    "High-quality kitchen equipment to ensure food safety and quality",
+                    "Prime location in a busy Cairo neighborhood with high foot traffic",
+                    "Strong online presence through social media marketing and online ordering platforms",
+                    "Unique value proposition of authentic Egyptian cuisine with a modern twist"
+                ],
+                "weaknesses": [
+                    "High estimated monthly costs of around 500,000 EGP",
+                    "Dependence on local food suppliers and beverage distributors for quality ingredients",
+                    "Limited market penetration of 0.14% in the first two years",
+                    "Average meal prices of 100-250 EGP may be perceived as high by some customers",
+                    "Need for continuous staff training and management to maintain high standards"
+                ],
+                "opportunities": [
+                    "Growing demand for traditional Egyptian food with a modern twist",
+                    "Expansion of third-party delivery platforms beyond major urban centers",
+                    "Government formalization of street vendors and GCC franchisors\u2019 accelerated entry into the market",
+                    "Increasing employment opportunities and wage growth across service sectors in Egypt",
+                    "Partnerships with local event planners and catering services to increase revenue streams"
+                ],
+                "threats": [
+                    "Competition from established restaurants such as Al Khal, Egyptian Night, and Koshary Abou Tarek",
+                    "Entry of new competitors, including GCC franchisors and cloud kitchen operators",
+                    "Fluctuations in food prices and availability due to supply chain disruptions",
+                    "Changes in consumer preferences and trends in the Egyptian foodservice market",
+                    "Regulatory fees and insurance costs that may impact profitability"
+                ]
+            },
+            "events": []
+        }
+    ],
+    "e2a511f403397b1485608784541fe87e": [
+        {
+            "idea": "burger restaurant in cairo",
+            "run_id": "1c5fdc70-7403-4a94-8985-63f8e59b6594",
+            "parsed_idea": {
+                "industry": "Food Service",
+                "target_audience": "Locals",
+                "region": "Cairo"
+            },
+            "bmc": {
+                "value_proposition": "Serving high-quality, affordable, and unique Egyptian-style burgers in a welcoming atmosphere",
+                "customer_segments": "Middle to upper-class locals in Cairo, aged 18-45, who value good food and social dining experiences",
+                "channels": "Social media marketing, online ordering and delivery platforms, word-of-mouth referrals, and strategic partnerships with local businesses",
+                "customer_relationships": "Personalized service, loyalty programs, and interactive events to build a strong community of regular customers",
+                "revenue_streams": "In-restaurant sales, delivery and take-out orders, catering services for events and parties, and merchandise sales",
+                "key_resources": "Prime location in a busy Cairo neighborhood, experienced chefs and staff, high-quality food suppliers, and modern restaurant equipment",
+                "key_activities": "Menu development and innovation, staff training and management, marketing and advertising, and supply chain management",
+                "key_partners": "Local food suppliers, delivery and logistics companies, social media influencers, and event planning services",
+                "cost_structure": "Rent and utilities for the restaurant, food and supply costs, staff salaries and benefits, marketing and advertising expenses, and equipment maintenance and upgrades"
+            },
+            "market": {
+                "tam": "$1.4",
+                "sam": "$0.5599999999999999",
+                "som": "$0.055999999999999994",
+                "assumptions": [
+                    "Global food service market valued at $1.4 trillion in 2023 (source: industry reports)",
+                    "SAM calculated as 0.029% of TAM focusing on Egypt foodservice market size of $408.87M by 2034 (source: market research data)",
+                    "SOM assumes 0.37% market penetration in first 2 years, using bottom-up approach: 10,000 customers \u00d7 $150 average annual spend = $1.5M SOM",
+                    "SAM and SOM were mathematically corrected to standard ratios."
+                ],
+                "market_trends": [
+                    "Growing demand for high-quality consumer products in Egypt",
+                    "Increasing tourism sector and consumer interest in processed products",
+                    "Competition from European Union, Middle Eastern, and African consumer-oriented food products",
+                    "Government formalization of street vendors and GCC franchisors\u2019 accelerated entry"
+                ]
+            },
+            "competitors": {
+                "competitors": [
+                    {
+                        "name": "Burger King",
+                        "pricing_model": "Fast food pricing",
+                        "strengths": "Variety of burger options, convenient locations",
+                        "market_gap": "Limited options for local Egyptian cuisine"
+                    },
+                    {
+                        "name": "McDonald's",
+                        "pricing_model": "Fast food pricing",
+                        "strengths": "Well-established brand, wide range of menu items",
+                        "market_gap": "Limited options for local Egyptian cuisine"
+                    },
+                    {
+                        "name": "Cook Door",
+                        "pricing_model": "Fast food pricing",
+                        "strengths": "Variety of burger and sandwich options, convenient delivery",
+                        "market_gap": "Limited options for dine-in experience"
+                    }
+                ]
+            },
+            "swot": {
+                "strengths": [
+                    "Unique Egyptian-style burgers",
+                    "Prime location in a busy Cairo neighborhood",
+                    "Experienced chefs and staff",
+                    "High-quality food suppliers",
+                    "Modern restaurant equipment",
+                    "Personalized service and loyalty programs"
+                ],
+                "weaknesses": [
+                    "Limited market penetration",
+                    "Dependence on few key suppliers",
+                    "High staff training and management costs",
+                    "Marketing and advertising expenses",
+                    "Equipment maintenance and upgrades costs"
+                ],
+                "opportunities": [
+                    "Growing demand for high-quality consumer products in Egypt",
+                    "Increasing tourism sector and consumer interest in processed products",
+                    "Partnerships with local businesses and social media influencers",
+                    "Expansion into catering services for events and parties",
+                    "Introduction of new and unique menu items"
+                ],
+                "threats": [
+                    "Competition from established fast food chains like Burger King and McDonald's",
+                    "Entry of new competitors, including European Union, Middle Eastern, and African consumer-oriented food products",
+                    "Government formalization of street vendors and GCC franchisors\u2019 accelerated entry",
+                    "Fluctuations in food and supply costs",
+                    "Changes in consumer preferences and tastes"
+                ]
+            },
+            "events": [
+                {
+                    "event": "data_corrected",
+                    "step": "competitors_checker",
+                    "corrections": [
+                        {
+                            "issue": "irrelevant_competitors: Koshary Abou Tarek is not a burger restaurant, In-N-Out Burger and Shake Shack do not have a presence in Cairo",
+                            "action": "rewrote_with_context"
+                        }
+                    ],
+                    "timestamp": "2026-05-07T17:33:25.221940"
+                },
+                {
+                    "event": "data_corrected",
+                    "step": "market_checker",
+                    "corrections": [
+                        {
+                            "field": "tam_sam_som",
+                            "issue": "hierarchy_violated",
+                            "action": "rescaled_values"
+                        }
+                    ],
+                    "timestamp": "2026-05-07T17:33:23.984700"
+                },
+                {
+                    "event": "data_corrected",
+                    "step": "competitors_checker",
+                    "corrections": [
+                        {
+                            "issue": "irrelevant_competitors: Koshary Abou Tarek is not a burger restaurant, In-N-Out Burger and Shake Shack do not have a presence in Cairo",
+                            "action": "rewrote_with_context"
+                        }
+                    ],
+                    "timestamp": "2026-05-07T17:33:25.221940"
+                },
+                {
+                    "event": "data_corrected",
+                    "step": "market_checker",
+                    "corrections": [
+                        {
+                            "field": "tam_sam_som",
+                            "issue": "hierarchy_violated",
+                            "action": "rescaled_values"
+                        }
+                    ],
+                    "timestamp": "2026-05-07T17:33:23.984700"
+                }
+            ]
+        }
+    ],
+    "52ca795266a0f6ac2f158293cd4cdf51": [
+        {
+            "idea": "Electronics & Gaming Store in Cairo",
+            "run_id": "cbf0e81f-5476-4900-90d9-81f4082188ee",
+            "parsed_idea": {
+                "industry": "Electronics",
+                "target_audience": "Gamers",
+                "region": "Cairo"
+            },
+            "bmc": {
+                "value_proposition": "Wide selection of gaming electronics, expert advice, and competitive prices",
+                "customer_segments": "Professional and casual gamers in Cairo, aged 18-35, with a focus on esports enthusiasts and gaming communities",
+                "channels": "Physical store in downtown Cairo, e-commerce website, social media platforms, and partnerships with local gaming events",
+                "customer_relationships": "Personalized customer service, loyalty program, and regular workshops on gaming hardware and software",
+                "revenue_streams": "Sales of gaming electronics, console and PC hardware, gaming accessories, and software, as well as repair and maintenance services",
+                "key_resources": "Physical store location, inventory management system, knowledgeable staff, and partnerships with gaming hardware and software suppliers",
+                "key_activities": "Sourcing and stocking gaming electronics, providing expert advice and customer support, hosting gaming events and workshops, and maintaining an online presence",
+                "key_partners": "Gaming hardware and software suppliers, local gaming event organizers, and esports teams",
+                "cost_structure": "Rent and utilities for physical store, inventory and supply chain costs, staff salaries and training, marketing and advertising expenses, and website maintenance and development costs"
+            },
+            "market": {
+                "tam": "$1.5",
+                "sam": "$0.6000000000000001",
+                "som": "$0.06000000000000001",
+                "assumptions": [
+                    "Global electronics market valued at $1.5T in 2023 (source: industry reports)",
+                    "SAM calculated as 0.67% of TAM focusing on gaming segment in MENA region",
+                    "SOM assumes 0.5% market penetration in first 2 years in Cairo",
+                    "Bottom-up: 100,000 gamers \u00d7 $500 annual spend = $50M SOM",
+                    "Methodology: Top-down approach for TAM and SAM, bottom-up for SOM",
+                    "SAM and SOM were mathematically corrected to standard ratios."
+                ],
+                "market_trends": [
+                    "Growing demand for gaming electronics in MENA region",
+                    "Increasing popularity of e-sports in Cairo",
+                    "Rise of online gaming communities in Egypt"
+                ]
+            },
+            "competitors": {
+                "competitors": [
+                    {
+                        "name": "Dream Telecom For Electronics (Dream 2000 stores)",
+                        "pricing_model": "Not specified",
+                        "strengths": "Specializes in mobile and electronic devices",
+                        "market_gap": "No evidence of personalized gaming plans"
+                    },
+                    {
+                        "name": "JOVI TRONIX",
+                        "pricing_model": "Not specified",
+                        "strengths": "Provides smart protection solutions for consumer electronics",
+                        "market_gap": "Lack of online presence and e-commerce platform"
+                    },
+                    {
+                        "name": "B.TECH",
+                        "pricing_model": "Not specified",
+                        "strengths": "Leading integrated omnichannel retailer in Egypt",
+                        "market_gap": "Limited focus on gaming products"
+                    },
+                    {
+                        "name": "MobileMasr",
+                        "pricing_model": "Not specified",
+                        "strengths": "Consumer Electronics E-Commerce startup",
+                        "market_gap": "Unclear product offerings and target audience"
+                    }
+                ]
+            },
+            "swot": {
+                "strengths": [
+                    "Expert advice from knowledgeable staff with extensive gaming industry experience",
+                    "Competitive pricing strategy with regular promotions and discounts for loyal customers",
+                    "Strategic physical store location in downtown Cairo with high foot traffic and visibility",
+                    "Established partnerships with leading gaming hardware and software suppliers for exclusive deals",
+                    "Personalized customer service and loyalty program with rewards and incentives for repeat customers",
+                    "Strong online presence through social media platforms and e-commerce website for convenient shopping"
+                ],
+                "weaknesses": [
+                    "High operational costs due to rent and utilities for physical store in downtown Cairo",
+                    "Inventory management challenges and potential stockouts of popular gaming products",
+                    "Limited marketing budget and reliance on word-of-mouth referrals for customer acquisition",
+                    "Dependence on partnerships with gaming hardware and software suppliers for product offerings",
+                    "Potential for high staff turnover rates and training costs for new employees",
+                    "Vulnerability to supply chain disruptions and fluctuations in global electronics market"
+                ],
+                "opportunities": [
+                    "Growing demand for gaming electronics in MENA region with increasing popularity of e-sports",
+                    "Expanding online gaming communities in Egypt and potential for partnerships with local gamers",
+                    "Rise of new gaming trends and technologies, such as virtual reality and cloud gaming",
+                    "Potential for strategic partnerships with local gaming event organizers and esports teams",
+                    "Expansion into new markets in Egypt and the MENA region through e-commerce and online marketing",
+                    "Increasing demand for gaming-related services, such as console and PC hardware repair and maintenance"
+                ],
+                "threats": [
+                    "Intense competition from established electronics retailers in Cairo with strong online presence",
+                    "Limited market penetration and high customer acquisition costs due to saturated market",
+                    "Fluctuations in global electronics market and potential supply chain disruptions",
+                    "Rise of new competitors with strong online presence and e-commerce capabilities",
+                    "Changes in consumer preferences and gaming trends, such as shift to mobile gaming or cloud gaming",
+                    "Potential for economic downturn or recession in Egypt, affecting consumer spending on gaming products"
+                ]
+            },
+            "events": [
+                {
+                    "event": "data_corrected",
+                    "step": "market_checker",
+                    "corrections": [
+                        {
+                            "field": "tam_sam_som",
+                            "issue": "hierarchy_violated",
+                            "action": "rescaled_values"
+                        }
+                    ],
+                    "timestamp": "2026-05-07T17:43:45.588200"
+                },
+                {
+                    "event": "data_corrected",
+                    "step": "market_checker",
+                    "corrections": [
+                        {
+                            "field": "tam_sam_som",
+                            "issue": "hierarchy_violated",
+                            "action": "rescaled_values"
+                        }
+                    ],
+                    "timestamp": "2026-05-07T17:43:45.588200"
+                },
+                {
+                    "event": "data_corrected",
+                    "step": "swot_checker",
+                    "corrections": [
+                        {
+                            "issue": "vague_item_in_strengths",
+                            "action": "rewrote_with_context"
+                        }
+                    ],
+                    "timestamp": "2026-05-07T17:43:48.989492"
+                }
+            ]
+        },
+        {
+            "idea": "Electronics & Gaming Store in Cairo",
+            "run_id": "4c2e1b77-9335-42bd-b087-7d350ee1336d",
+            "parsed_idea": {
+                "industry": "Electronics",
+                "target_audience": "Gamers",
+                "region": "Cairo"
+            },
+            "bmc": {
+                "value_proposition": "Wide selection of gaming electronics, expert advice, and competitive pricing",
+                "customer_segments": "Professional gamers, casual gamers, and gaming enthusiasts in Cairo",
+                "channels": "Physical store in Cairo, e-commerce website, social media, and online gaming forums",
+                "customer_relationships": "Personalized customer service, loyalty programs, and regular community events",
+                "revenue_streams": "Sales of gaming electronics, console games, and accessories, as well as repair and maintenance services",
+                "key_resources": "Physical store location, inventory management system, knowledgeable staff, and partnerships with gaming suppliers",
+                "key_activities": "Sourcing and stocking gaming electronics, providing customer support and advice, and organizing gaming events and tournaments",
+                "key_partners": "Gaming suppliers, console manufacturers, and local gaming communities",
+                "cost_structure": "Rent and utilities for physical store, inventory and supply costs, staff salaries and training, marketing and advertising expenses, and maintenance and repair costs"
+            },
+            "market": {
+                "tam": "$1.6B",
+                "sam": "$240M",
+                "som": "$1.2M",
+                "assumptions": [
+                    "Egypt semiconductor market size stood at USD 1.60 billion in 2025, using this as TAM",
+                    "SAM calculated as 15% of TAM focusing on the gaming segment in Cairo",
+                    "SOM assumes 0.5% market penetration of SAM in first 2 years, with a bottom-up calculation of 1,000 gamers \u00d7 $1,200 annual spend = $1.2M SOM"
+                ],
+                "market_trends": [
+                    "Egypt's consumer electronics market is seeing a surge in demand for smart home devices and wearable technology",
+                    "The largest segment within the consumer electronics market in Egypt is Telephony",
+                    "Online sales are projected to contribute a significant percentage of the total revenue in the Consumer Electronics market"
+                ]
+            },
+            "competitors": {
+                "competitors": [
+                    {
+                        "name": "Dream Telecom For Electronics (Dream 2000 stores)",
+                        "pricing_model": "Not specified",
+                        "strengths": "Specializes in mobile and electronic devices",
+                        "market_gap": "No information on personalized gaming plans"
+                    },
+                    {
+                        "name": "JOVI TRONIX",
+                        "pricing_model": "Not specified",
+                        "strengths": "Provides smart protection solutions for consumer electronics",
+                        "market_gap": "Lack of information on gaming-specific products"
+                    },
+                    {
+                        "name": "B.TECH",
+                        "pricing_model": "Not specified",
+                        "strengths": "Leading integrated omnichannel retailer in Egypt",
+                        "market_gap": "No information on exclusive gaming deals"
+                    },
+                    {
+                        "name": "MobileMasr",
+                        "pricing_model": "Not specified",
+                        "strengths": "Consumer Electronics E-Commerce startup",
+                        "market_gap": "No information on gaming console sales"
+                    }
+                ]
+            },
+            "swot": {
+                "strengths": [
+                    "Wide selection of gaming electronics",
+                    "Expert advice from knowledgeable staff",
+                    "Competitive pricing strategy",
+                    "Strong partnerships with gaming suppliers",
+                    "Physical store location in Cairo for immersive gaming experience"
+                ],
+                "weaknesses": [
+                    "Dependence on physical store location in Cairo, limiting reach",
+                    "High inventory and supply costs for gaming electronics",
+                    "Staff salaries and training costs for maintaining expert advice",
+                    "Marketing and advertising expenses to attract target audience",
+                    "Limited online presence compared to competitors"
+                ],
+                "opportunities": [
+                    "Growing demand for smart home devices and wearable technology in Egypt",
+                    "Increasing online sales in the Consumer Electronics market",
+                    "Surge in gaming popularity among Egyptian youth",
+                    "Potential partnerships with local gaming communities and events",
+                    "Expansion into repair and maintenance services for gaming electronics"
+                ],
+                "threats": [
+                    "Competition from established retailers like Dream 2000 and B.TECH",
+                    "Lack of information on personalized gaming plans from competitors",
+                    "Rise of online marketplaces and e-commerce startups like MobileMasr",
+                    "Fluctuations in global semiconductor market affecting supply chains",
+                    "Rapidly changing technology landscape requiring continuous investment in new products and staff training"
+                ]
+            },
+            "events": []
+        }
+    ]
+}
